@@ -3,7 +3,7 @@
 
 **ecommerce watch store(wristup)**
 
-**author: Muhammad Akram Khan**
+**author: Muhammad Irfan**
 
 
 **Home Page/ Product listing page:**
