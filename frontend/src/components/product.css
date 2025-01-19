@@ -1,0 +1,67 @@
+/* Custom Card Styling */
+.custom-card {
+  width: 100%; /* Full width */
+  max-width: 300px; /* Maximum width for larger screens */
+  margin: 0 auto; /* Center the card */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.custom-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Card Image Styling */
+.custom-card-image {
+  width: 100%; /* Make the image responsive */
+  height: 200px; /* Fixed height for uniformity */
+  object-fit: cover; /* Ensure the image covers the area without distortion */
+  display: block;
+}
+
+/* Card Body Styling */
+.custom-card-body {
+  padding: 16px;
+  text-align: center;
+}
+
+/* Card Title Styling */
+.custom-card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+/* Card Text Styling */
+.custom-card-text {
+  font-size: 1.1rem;
+  color: #666;
+  margin-bottom: 12px;
+}
+
+/* Button Styling */
+.custom-button {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.custom-button:hover {
+  background-color: #0056b3;
+}
+
+.custom-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
